@@ -4,32 +4,39 @@
   "experiences": [
     {
       "title": "AI Automation Engineer",
-      "company": "Jignect",
+      "company": "Jignect Technologies",
       "period": "May 2024 – Jul 2025",
       "location": "",
-      "description": "Enhanced Python automation frameworks with robust error handling, minimizing false positives and achieving zero critical defects across 50+ test suites. Integrated ML-based validation checks into testing workflows, improving pre-release quality by 25%. Implemented automated testing frameworks within CI/CD pipelines, reducing deployment failures by 20%. Accelerated test suite performance through parallelization strategies, diminishing test execution duration by 30% and freeing up crucial CI/CD pipeline resources for subsequent builds. Spearheaded a data validation pipeline using Great Expectations and Spark, reducing data-related incidents by 40%.",
+      "logo": "assets/images/logos/jignect.png",
+      "color": "#4ECDC4",
+      "icon": "fas fa-briefcase",
+      "description": "Enhanced Python automation frameworks with robust error handling, minimizing false positives and achieving zero critical defects across 50+ test suites.",
       "responsibilities": [
         "Enhanced Python automation frameworks with robust error handling, minimizing false positives and achieving zero critical defects across 50+ test suites",
         "Integrated ML-based validation checks into testing workflows, improving pre-release quality by 25%",
         "Implemented automated testing frameworks within CI/CD pipelines, reducing deployment failures by 20%",
-        "Accelerated test suite performance through parallelization strategies, diminishing test execution duration by 30% and freeing up crucial CI/CD pipeline resources for subsequent builds",
+        "Accelerated test suite performance through parallelization strategies, diminishing test execution duration by 30%",
         "Spearheaded a data validation pipeline using Great Expectations and Spark, reducing data-related incidents by 40%"
-      ]
+      ],
+      "technologies": ["Python", "CI/CD", "Great Expectations", "Spark", "ML"]
     },
     {
       "title": "Data Science Intern",
       "company": "SlashMark",
       "period": "Dec 2023 – Mar 2024",
       "location": "",
-      "description": "Trained a TensorFlow CNN on 35,000+ retinal images, classifying five diabetic retinopathy stages with 96.3% training. Engineered a data preprocessing pipeline featuring image resizing, normalization, and augmentation, achieving a 28% reduction in training loss over 25 epochs. Applied SHAP-based explainability analysis on model predictions, identifying top 5 key retinal features to support responsible AI practices in diagnostics. Optimized model inference time by 35% through quantization while maintaining accuracy, enabling faster processing of retinal images. Deployed model as a proof-of-concept via API endpoint, integrating into an existing diagnostic workflow and processing 12 images per minute.",
+      "logo": "assets/images/logos/slashmark.png",
+      "color": "#B19CD9",
+      "icon": "fas fa-briefcase",
+      "description": "Trained a TensorFlow CNN on 35,000+ retinal images, classifying five diabetic retinopathy stages with 96.3% accuracy.",
       "responsibilities": [
-        "Trained a TensorFlow CNN on 35,000+ retinal images, classifying five diabetic retinopathy stages with 96",
-        "3% training",
+        "Trained a TensorFlow CNN on 35,000+ retinal images, classifying five diabetic retinopathy stages with 96.3% accuracy",
         "Engineered a data preprocessing pipeline featuring image resizing, normalization, and augmentation, achieving a 28% reduction in training loss over 25 epochs",
-        "Applied SHAP-based explainability analysis on model predictions, identifying top 5 key retinal features to support responsible AI practices in diagnostics",
-        "Optimized model inference time by 35% through quantization while maintaining accuracy, enabling faster processing of retinal images",
-        "Deployed model as a proof-of-concept via API endpoint, integrating into an existing diagnostic workflow and processing 12 images per minute"
-      ]
+        "Applied SHAP-based explainability analysis on model predictions, identifying top 5 key retinal features to support responsible AI practices",
+        "Optimized model inference time by 35% through quantization while maintaining accuracy",
+        "Deployed model as a proof-of-concept via API endpoint, processing 12 images per minute"
+      ],
+      "technologies": ["TensorFlow", "Python", "SHAP", "OpenCV", "API"]
     }
   ]
 }
