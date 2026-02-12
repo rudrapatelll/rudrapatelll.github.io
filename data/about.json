@@ -1,0 +1,39 @@
+{
+  "_instructions": "About section.",
+  "sectionTitle": "About Me",
+  "image": "assets/images/profile.jpg",
+  "paragraphs": [
+    "Passionate professional."
+  ],
+  "statistics": [
+    {
+      "icon": "fas fa-project-diagram",
+      "value": "18+",
+      "label": "Projects Completed",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-briefcase",
+      "value": "2+",
+      "label": "Years Experience",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-code",
+      "value": "46+",
+      "label": "Technologies",
+      "color": "#FFE66D"
+    },
+    {
+      "icon": "fas fa-award",
+      "value": "4+",
+      "label": "Certifications",
+      "color": "#A8DADC"
+    }
+  ],
+  "downloadCV": {
+    "text": "Download Resume",
+    "href": "assets/files/resume.pdf",
+    "icon": "fas fa-download"
+  }
+}

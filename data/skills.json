@@ -1,0 +1,80 @@
+{
+  "_instructions": "Organize your skills with vibrant colors.",
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "color": "#FF6B6B",
+      "skills": [
+        "Python",
+        "SQL",
+        "R",
+        "C++",
+        "Bash"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "color": "#4ECDC4",
+      "skills": [
+        "TensorFlow",
+        "PyTorch",
+        "Keras",
+        "Hugging Face Transformers",
+        "LangChain",
+        "RAG",
+        "FastAPI",
+        "PyTorch Lightning"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "color": "#FFE66D",
+      "skills": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Jupyter Notebook",
+        "Docker",
+        "Weights & Biases",
+        "MLflow",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "OpenCV",
+        "SHAP",
+        "LIME",
+        "Great Expectations",
+        "Spark"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "color": "#A8DADC",
+      "skills": [
+        "Machine Learning",
+        "Deep Learning",
+        "Supervised & Unsupervised Learning",
+        "Feature Engineering",
+        "Model Training & Evaluation",
+        "Hyperparameter Tuning",
+        "Cross-Validation",
+        "Computer Vision",
+        "NLP",
+        "LLMs",
+        "Generative AI",
+        "Prompt Engineering",
+        "Responsible AI",
+        "Bias Detection",
+        "Fairness Metrics",
+        "Explainability"
+      ]
+    }
+  ]
+}

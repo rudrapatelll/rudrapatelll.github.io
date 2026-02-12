@@ -1,0 +1,26 @@
+{
+  "_instructions": "Site-wide configuration and meta tags.",
+  "title": "Rudra Patel | AI Automation Engineer",
+  "description": "Rudra Patel - AI Automation Engineer | Portfolio",
+  "keywords": "AI Automation Engineer, Portfolio, Rudra Patel",
+  "author": "Rudra Patel",
+  "siteName": "Rudra Patel",
+  "siteTitle": "Rudra Patel | AI Automation Engineer",
+  "meta": {
+    "title": "Rudra Patel | AI Automation Engineer",
+    "description": "Rudra Patel - AI Automation Engineer | Portfolio",
+    "author": "Rudra Patel",
+    "keywords": "AI Automation Engineer, Portfolio, Rudra Patel"
+  },
+  "branding": {
+    "name": "Rudra Patel",
+    "tagline": "AI Automation Engineer",
+    "logo": "/logo.png"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "enableParticles": true,
+    "navbarScrollEffect": true
+  }
+}

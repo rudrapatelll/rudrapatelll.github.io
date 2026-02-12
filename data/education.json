@@ -1,0 +1,53 @@
+{
+  "_instructions": "Add your education and certifications here.",
+  "sectionTitle": "Education & Certifications",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "Master of Science",
+      "school": "University of Florida",
+      "institution": "University of Florida",
+      "period": "Aug 2025 – Aug 2027",
+      "details": "",
+      "description": ""
+    },
+    {
+      "degree": "Bachelor of Technology",
+      "school": "Parul University",
+      "institution": "Parul University",
+      "period": "Aug 2020 – May 2024",
+      "details": "",
+      "description": ""
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Data Science Specialization",
+      "name": "Data Science Specialization",
+      "issuer": "Johns Hopkins University",
+      "date": "",
+      "icon": "fas fa-certificate"
+    },
+    {
+      "title": "Python Programming Masterclass",
+      "name": "Python Programming Masterclass",
+      "issuer": "Udemy",
+      "date": "",
+      "icon": "fas fa-certificate"
+    },
+    {
+      "title": "AI Engineer Bootcamp",
+      "name": "AI Engineer Bootcamp",
+      "issuer": "Udemy",
+      "date": "",
+      "icon": "fas fa-certificate"
+    },
+    {
+      "title": "Natural Language Processing using Python",
+      "name": "Natural Language Processing using Python",
+      "issuer": "Infosys Springboard",
+      "date": "",
+      "icon": "fas fa-certificate"
+    }
+  ]
+}

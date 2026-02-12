@@ -1,0 +1,453 @@
+{
+  "_instructions": "Add your projects.",
+  "sectionTitle": "Featured Work",
+  "projects": [
+    {
+      "title": "Predictive Employee Turnover Modeling",
+      "description": "Developed a logistic regression model on 50K+ employee records, predicting attrition with 92% accuracy and an F1-score improvement of 18% through feature engineering. Integrated fairness-aware evaluation using demographic parity and equalized odds metrics. Orchestrated automated data transformation and model evaluation pipelines.",
+      "longDescription": "Developed a logistic regression model on 50K+ employee records, predicting attrition with 92% accuracy and an F1-score improvement of 18% through feature engineering. Integrated fairness-aware evaluation using demographic parity and equalized odds metrics. Orchestrated automated data transformation and model evaluation pipelines.",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Logistic Regression",
+        "HRIS"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Generative AI Report Automation",
+      "description": "Accelerated data preprocessing and model evaluation pipelines using Python and Pandas, achieving a 45% reduction in workflow duration. Deployed a generative AI summarization pipeline to condense 100K+ survey responses with 95% accuracy, implementing hallucination detection checks.",
+      "longDescription": "Accelerated data preprocessing and model evaluation pipelines using Python and Pandas, achieving a 45% reduction in workflow duration. Deployed a generative AI summarization pipeline to condense 100K+ survey responses with 95% accuracy, implementing hallucination detection checks.",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Generative AI"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Smart City Intra Transit System Using IoT",
+      "description": "Optimized IoT data processing by converting to JSON-MQTT protocol and implementing NoSQL database analytics, shrinking model size by 15%. Reduced computational cost of AI inference on edge devices by 30% through model quantization and pruning.",
+      "longDescription": "Optimized IoT data processing by converting to JSON-MQTT protocol and implementing NoSQL database analytics, shrinking model size by 15%. Reduced computational cost of AI inference on edge devices by 30% through model quantization and pruning.",
+      "category": "Software Development",
+      "technologies": [
+        "IoT",
+        "JSON-MQTT",
+        "NoSQL",
+        "Model Quantization"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "financial_advisor_llm",
+      "description": "Modern web application demonstrating clean code principles",
+      "longDescription": "Modern web application demonstrating clean code principles",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Jupyter Notebook",
+        "Makefile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/financial_advisor_llm",
+      "demo": "https://github.com/rudrapatelll/financial_advisor_llm",
+      "links": {
+        "github": "https://github.com/rudrapatelll/financial_advisor_llm",
+        "demo": "https://github.com/rudrapatelll/financial_advisor_llm",
+        "live": "https://github.com/rudrapatelll/financial_advisor_llm"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "time-series-analysis-and-forecasting-with-python",
+      "description": "Interactive application built for continuous learning",
+      "longDescription": "Interactive application built for continuous learning",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/time-series-analysis-and-forecasting-with-python",
+      "demo": "https://github.com/rudrapatelll/time-series-analysis-and-forecasting-with-python",
+      "links": {
+        "github": "https://github.com/rudrapatelll/time-series-analysis-and-forecasting-with-python",
+        "demo": "https://github.com/rudrapatelll/time-series-analysis-and-forecasting-with-python",
+        "live": "https://github.com/rudrapatelll/time-series-analysis-and-forecasting-with-python"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "dicom",
+      "description": "Personal development project using industry best practices",
+      "longDescription": "Personal development project using industry best practices",
+      "category": "Backend Development",
+      "technologies": [
+        "Go",
+        "Python",
+        "Makefile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF8B94",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/dicom",
+      "demo": "https://github.com/rudrapatelll/dicom",
+      "links": {
+        "github": "https://github.com/rudrapatelll/dicom",
+        "demo": "https://github.com/rudrapatelll/dicom",
+        "live": "https://github.com/rudrapatelll/dicom"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "data-analytics-customer-segmentation",
+      "description": "Personal project for exploring modern development practices",
+      "longDescription": "Personal project for exploring modern development practices",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/data-analytics-customer-segmentation",
+      "demo": "https://github.com/rudrapatelll/data-analytics-customer-segmentation",
+      "links": {
+        "github": "https://github.com/rudrapatelll/data-analytics-customer-segmentation",
+        "demo": "https://github.com/rudrapatelll/data-analytics-customer-segmentation",
+        "live": "https://github.com/rudrapatelll/data-analytics-customer-segmentation"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "customer-churn-prediction",
+      "description": "Interactive application built for continuous learning",
+      "longDescription": "Interactive application built for continuous learning",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/customer-churn-prediction",
+      "demo": "https://github.com/rudrapatelll/customer-churn-prediction",
+      "links": {
+        "github": "https://github.com/rudrapatelll/customer-churn-prediction",
+        "demo": "https://github.com/rudrapatelll/customer-churn-prediction",
+        "live": "https://github.com/rudrapatelll/customer-churn-prediction"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "mlops-end-to-end-project",
+      "description": "Hands-on learning experience with modern frameworks",
+      "longDescription": "Hands-on learning experience with modern frameworks",
+      "category": "Backend Development",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python",
+        "HTML",
+        "Shell"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/mlops-end-to-end-project",
+      "demo": "https://github.com/rudrapatelll/mlops-end-to-end-project",
+      "links": {
+        "github": "https://github.com/rudrapatelll/mlops-end-to-end-project",
+        "demo": "https://github.com/rudrapatelll/mlops-end-to-end-project",
+        "live": "https://github.com/rudrapatelll/mlops-end-to-end-project"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "create-million-parameter-llm-from-scratch",
+      "description": "Comprehensive project exploring software design patterns",
+      "longDescription": "Comprehensive project exploring software design patterns",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/create-million-parameter-llm-from-scratch",
+      "demo": "https://github.com/rudrapatelll/create-million-parameter-llm-from-scratch",
+      "links": {
+        "github": "https://github.com/rudrapatelll/create-million-parameter-llm-from-scratch",
+        "demo": "https://github.com/rudrapatelll/create-million-parameter-llm-from-scratch",
+        "live": "https://github.com/rudrapatelll/create-million-parameter-llm-from-scratch"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "langchain-rag-retrieval-augmented-generation-for-document-understanding",
+      "description": "Full-featured application built as a learning exercise",
+      "longDescription": "Full-featured application built as a learning exercise",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/langchain-rag-retrieval-augmented-generation-for-document-understanding",
+      "demo": "https://github.com/rudrapatelll/langchain-rag-retrieval-augmented-generation-for-document-understanding",
+      "links": {
+        "github": "https://github.com/rudrapatelll/langchain-rag-retrieval-augmented-generation-for-document-understanding",
+        "demo": "https://github.com/rudrapatelll/langchain-rag-retrieval-augmented-generation-for-document-understanding",
+        "live": "https://github.com/rudrapatelll/langchain-rag-retrieval-augmented-generation-for-document-understanding"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "multi-agentic-rag",
+      "description": "Interactive application built for continuous learning",
+      "longDescription": "Interactive application built for continuous learning",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF8B94",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/multi-agentic-rag",
+      "demo": "https://github.com/rudrapatelll/multi-agentic-rag",
+      "links": {
+        "github": "https://github.com/rudrapatelll/multi-agentic-rag",
+        "demo": "https://github.com/rudrapatelll/multi-agentic-rag",
+        "live": "https://github.com/rudrapatelll/multi-agentic-rag"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Emotion_detection_with_CNN",
+      "description": "Real-time emotion detection using CNN and OpenCV",
+      "longDescription": "Real-time emotion detection using CNN and OpenCV",
+      "category": "Backend Development",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/Emotion_detection_with_CNN",
+      "demo": "https://github.com/rudrapatelll/Emotion_detection_with_CNN",
+      "links": {
+        "github": "https://github.com/rudrapatelll/Emotion_detection_with_CNN",
+        "demo": "https://github.com/rudrapatelll/Emotion_detection_with_CNN",
+        "live": "https://github.com/rudrapatelll/Emotion_detection_with_CNN"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "A.C.I.S",
+      "description": "Acis Final Report",
+      "longDescription": "Acis Final Report",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/A.C.I.S",
+      "demo": "https://github.com/rudrapatelll/A.C.I.S",
+      "links": {
+        "github": "https://github.com/rudrapatelll/A.C.I.S",
+        "demo": "https://github.com/rudrapatelll/A.C.I.S",
+        "live": "https://github.com/rudrapatelll/A.C.I.S"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "datasciencecoursera",
+      "description": "first repo",
+      "longDescription": "first repo",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/datasciencecoursera",
+      "demo": "https://github.com/rudrapatelll/datasciencecoursera",
+      "links": {
+        "github": "https://github.com/rudrapatelll/datasciencecoursera",
+        "demo": "https://github.com/rudrapatelll/datasciencecoursera",
+        "live": "https://github.com/rudrapatelll/datasciencecoursera"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Exploratory-data-analysis-course-project-2",
+      "description": "GitHub repository: Exploratory-data-analysis-course-project-2",
+      "longDescription": "GitHub repository: Exploratory-data-analysis-course-project-2",
+      "category": "Software Development",
+      "technologies": [
+        "R"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/Exploratory-data-analysis-course-project-2",
+      "demo": "https://github.com/rudrapatelll/Exploratory-data-analysis-course-project-2",
+      "links": {
+        "github": "https://github.com/rudrapatelll/Exploratory-data-analysis-course-project-2",
+        "demo": "https://github.com/rudrapatelll/Exploratory-data-analysis-course-project-2",
+        "live": "https://github.com/rudrapatelll/Exploratory-data-analysis-course-project-2"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Program_Assignment3",
+      "description": "GitHub repository: Program_Assignment3",
+      "longDescription": "GitHub repository: Program_Assignment3",
+      "category": "Software Development",
+      "technologies": [
+        "R"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/Program_Assignment3",
+      "demo": "https://github.com/rudrapatelll/Program_Assignment3",
+      "links": {
+        "github": "https://github.com/rudrapatelll/Program_Assignment3",
+        "demo": "https://github.com/rudrapatelll/Program_Assignment3",
+        "live": "https://github.com/rudrapatelll/Program_Assignment3"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Diabetic-Retinopathy-Screening-Using-CNN",
+      "description": "GitHub repository: Diabetic-Retinopathy-Screening-Using-CNN",
+      "longDescription": "GitHub repository: Diabetic-Retinopathy-Screening-Using-CNN",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF8B94",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/rudrapatelll/Diabetic-Retinopathy-Screening-Using-CNN",
+      "demo": "https://github.com/rudrapatelll/Diabetic-Retinopathy-Screening-Using-CNN",
+      "links": {
+        "github": "https://github.com/rudrapatelll/Diabetic-Retinopathy-Screening-Using-CNN",
+        "demo": "https://github.com/rudrapatelll/Diabetic-Retinopathy-Screening-Using-CNN",
+        "live": "https://github.com/rudrapatelll/Diabetic-Retinopathy-Screening-Using-CNN"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    }
+  ]
+}
