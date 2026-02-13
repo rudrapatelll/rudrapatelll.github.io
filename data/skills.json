@@ -7,26 +7,26 @@
       "icon": "fas fa-code",
       "color": "#FF6B6B",
       "skills": [
-        "Python",
-        "SQL",
-        "R",
-        "C++",
-        "Bash"
+        { "name": "Python", "icon": "devicon-python-plain" },
+        { "name": "SQL", "icon": "fas fa-database" },
+        { "name": "R", "icon": "devicon-r-plain" },
+        { "name": "C++", "icon": "devicon-cplusplus-plain" },
+        { "name": "Bash", "icon": "devicon-bash-plain" }
       ]
     },
     {
-      "category": "Frameworks & Libraries",
-      "icon": "fas fa-toolbox",
+      "category": "AI / ML Frameworks",
+      "icon": "fas fa-brain",
       "color": "#4ECDC4",
       "skills": [
-        "TensorFlow",
-        "PyTorch",
-        "Keras",
-        "Hugging Face Transformers",
-        "LangChain",
-        "RAG",
-        "FastAPI",
-        "PyTorch Lightning"
+        { "name": "TensorFlow", "icon": "devicon-tensorflow-original" },
+        { "name": "PyTorch", "icon": "devicon-pytorch-original" },
+        { "name": "Keras", "icon": "devicon-keras-plain" },
+        { "name": "Hugging Face", "icon": "fas fa-face-smile-beam" },
+        { "name": "LangChain", "icon": "fas fa-link" },
+        { "name": "scikit-learn", "icon": "devicon-scikitlearn-plain" },
+        { "name": "OpenCV", "icon": "devicon-opencv-plain" },
+        { "name": "FastAPI", "icon": "devicon-fastapi-plain" }
       ]
     },
     {
@@ -34,46 +34,42 @@
       "icon": "fas fa-wrench",
       "color": "#FFE66D",
       "skills": [
-        "Git",
-        "GitHub",
-        "VS Code",
-        "Jupyter Notebook",
-        "Docker",
-        "Weights & Biases",
-        "MLflow",
-        "Pandas",
-        "NumPy",
-        "Scikit-learn",
-        "Matplotlib",
-        "Seaborn",
-        "OpenCV",
-        "SHAP",
-        "LIME",
-        "Great Expectations",
-        "Spark"
+        { "name": "Docker", "icon": "devicon-docker-plain" },
+        { "name": "Git", "icon": "devicon-git-plain" },
+        { "name": "GitHub", "icon": "devicon-github-original" },
+        { "name": "Jupyter", "icon": "devicon-jupyter-plain" },
+        { "name": "VS Code", "icon": "devicon-vscode-plain" },
+        { "name": "MLflow", "icon": "fas fa-flask" },
+        { "name": "W&B", "icon": "fas fa-chart-line" },
+        { "name": "Spark", "icon": "devicon-apachespark-original" }
       ]
     },
     {
-      "category": "Technical Skills",
-      "icon": "fas fa-laptop-code",
+      "category": "Data & Visualization",
+      "icon": "fas fa-chart-bar",
+      "color": "#B19CD9",
+      "skills": [
+        { "name": "Pandas", "icon": "devicon-pandas-plain" },
+        { "name": "NumPy", "icon": "devicon-numpy-plain" },
+        { "name": "Matplotlib", "icon": "devicon-matplotlib-plain" },
+        { "name": "Seaborn", "icon": "fas fa-chart-area" },
+        { "name": "Plotly", "icon": "devicon-plotly-plain" },
+        { "name": "SHAP", "icon": "fas fa-project-diagram" }
+      ]
+    },
+    {
+      "category": "Specializations",
+      "icon": "fas fa-star",
       "color": "#A8DADC",
       "skills": [
-        "Machine Learning",
-        "Deep Learning",
-        "Supervised & Unsupervised Learning",
-        "Feature Engineering",
-        "Model Training & Evaluation",
-        "Hyperparameter Tuning",
-        "Cross-Validation",
-        "Computer Vision",
-        "NLP",
-        "LLMs",
-        "Generative AI",
-        "Prompt Engineering",
-        "Responsible AI",
-        "Bias Detection",
-        "Fairness Metrics",
-        "Explainability"
+        { "name": "Deep Learning", "icon": "fas fa-brain" },
+        { "name": "Computer Vision", "icon": "fas fa-eye" },
+        { "name": "NLP", "icon": "fas fa-language" },
+        { "name": "LLMs", "icon": "fas fa-robot" },
+        { "name": "RAG", "icon": "fas fa-search" },
+        { "name": "Generative AI", "icon": "fas fa-wand-magic-sparkles" },
+        { "name": "MLOps", "icon": "fas fa-cogs" },
+        { "name": "Responsible AI", "icon": "fas fa-shield-halved" }
       ]
     }
   ]

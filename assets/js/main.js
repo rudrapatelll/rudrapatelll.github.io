@@ -98,6 +98,12 @@ async function loadHero() {
         const response = await fetch('data/hero.json');
         const data = await response.json();
 
+        // Set avatar
+        const avatarContainer = document.getElementById('hero-avatar');
+        if (avatarContainer && data.avatarUrl) {
+            avatarContainer.innerHTML = `<img src="${data.avatarUrl}" alt="${data.name}" />`;
+        }
+
         // Set text content
         document.getElementById('hero-greeting').textContent = data.greeting;
         document.getElementById('hero-name').innerHTML = `${data.name.split(' ')[0]} <span>${data.name.split(' ').slice(1).join(' ')}</span>`;
@@ -213,20 +219,28 @@ async function loadExperience() {
             timelineContainer.innerHTML = data.experiences.map(exp => `
                 <div class="timeline-item">
                     <div class="timeline-empty"></div>
-                    <div class="timeline-icon" style="background: ${exp.color}">
-                        <i class="${exp.icon}"></i>
+                    <div class="timeline-icon" style="background: ${exp.color || 'var(--gradient-primary)'}">
+                        ${exp.logo ? `<img src="${exp.logo}" alt="${exp.company}" class="timeline-icon-img" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'">` : ''}
+                        <i class="${exp.icon || 'fas fa-briefcase'}" ${exp.logo ? 'style="display:none"' : ''}></i>
                     </div>
                     <div class="timeline-content">
                         <div class="experience-header">
-                            <h3 class="experience-title">${exp.title}</h3>
-                            <p class="experience-company">
-                                ${exp.company} ${exp.location ? `• ${exp.location}` : ''}
-                            </p>
-                            <p class="experience-period">
-                                <i class="fas fa-calendar-alt"></i>
-                                ${exp.period}
-                                ${exp.type ? `<span class="experience-type">• ${exp.type}</span>` : ''}
-                            </p>
+                            ${exp.logo ? `
+                            <div class="experience-logo">
+                                <img src="${exp.logo}" alt="${exp.company}">
+                            </div>
+                            ` : ''}
+                            <div class="experience-header-text">
+                                <h3 class="experience-title">${exp.title}</h3>
+                                <p class="experience-company">
+                                    ${exp.company} ${exp.location ? `• ${exp.location}` : ''}
+                                </p>
+                                <p class="experience-period">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    ${exp.period}
+                                    ${exp.type ? `<span class="experience-type">• ${exp.type}</span>` : ''}
+                                </p>
+                            </div>
                         </div>
                         <p class="experience-description">${exp.description}</p>
                         ${exp.responsibilities ? `
@@ -262,19 +276,32 @@ async function loadSkills() {
         // Render skill categories
         const skillsGrid = document.getElementById('skills-grid');
         if (skillsGrid && data.categories) {
-            skillsGrid.innerHTML = data.categories.map(category => `
-                <div class="skill-category">
-                    <div class="skill-category-header">
-                        <div class="skill-category-icon" style="background: ${category.color}20; color: ${category.color}">
-                            <i class="${category.icon}"></i>
+            skillsGrid.innerHTML = data.categories.map(category => {
+                const skillsHtml = category.skills.map(skill => {
+                    const skillName = typeof skill === 'string' ? skill : skill.name;
+                    const skillIcon = typeof skill === 'string' ? '' : skill.icon;
+                    return `
+                        <div class="skill-item">
+                            ${skillIcon ? `<div class="skill-item-icon" style="color: ${category.color}"><i class="${skillIcon}"></i></div>` : ''}
+                            <span class="skill-item-name">${skillName}</span>
                         </div>
-                        <h3 class="skill-category-title">${category.category}</h3>
+                    `;
+                }).join('');
+
+                return `
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon" style="background: ${category.color}20; color: ${category.color}">
+                                <i class="${category.icon}"></i>
+                            </div>
+                            <h3 class="skill-category-title">${category.category}</h3>
+                        </div>
+                        <div class="skill-list">
+                            ${skillsHtml}
+                        </div>
                     </div>
-                    <div class="skill-list">
-                        ${category.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
-                    </div>
-                </div>
-            `).join('');
+                `;
+            }).join('');
         }
     } catch (error) {
         console.error('Error loading skills section:', error);
@@ -297,44 +324,51 @@ async function loadProjects() {
         if (projectsGrid && data.projects) {
             projectsGrid.innerHTML = data.projects.map(project => `
                 <div class="project-card">
-                    <div class="project-icon" style="background: ${project.color}">
-                        <i class="${project.icon}"></i>
+                    <div class="project-image" style="background-color: ${project.color}20">
+                        ${project.image ? `<img src="${project.image}" alt="${project.title}" loading="lazy" onerror="this.style.display='none'">` : ''}
+                        <div class="project-image-overlay"></div>
+                        <div class="project-image-icon" style="color: ${project.color}">
+                            <i class="${project.icon}"></i>
+                        </div>
+                        ${project.category ? `<span class="project-category" style="background: ${project.color}">${project.category}</span>` : ''}
                     </div>
-                    <div class="project-header">
-                        <h3 class="project-title">${project.title}</h3>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <h3 class="project-title">${project.title}</h3>
+                        </div>
+                        <p class="project-description">${project.description}</p>
+                        ${project.technologies ? `
+                            <div class="project-tech">
+                                ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        ${project.links ? `
+                            <div class="project-links">
+                                ${project.links.github ? `
+                                    <a href="${project.links.github}" target="_blank" rel="noopener noreferrer" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                        Code
+                                    </a>
+                                ` : ''}
+                                ${project.links.demo ? `
+                                    <a href="${project.links.demo}" target="_blank" rel="noopener noreferrer" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Live Demo
+                                    </a>
+                                ` : ''}
+                            </div>
+                        ` : ''}
+                        ${project.stats ? `
+                            <div class="project-stats">
+                                ${Object.entries(project.stats).map(([key, value]) => `
+                                    <div class="project-stat">
+                                        <span class="project-stat-value">${value}</span>
+                                        <span class="project-stat-label">${key}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        ` : ''}
                     </div>
-                    <p class="project-description">${project.description}</p>
-                    ${project.technologies ? `
-                        <div class="project-tech">
-                            ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
-                        </div>
-                    ` : ''}
-                    ${project.links ? `
-                        <div class="project-links">
-                            ${project.links.github ? `
-                                <a href="${project.links.github}" target="_blank" rel="noopener noreferrer" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    Code
-                                </a>
-                            ` : ''}
-                            ${project.links.demo ? `
-                                <a href="${project.links.demo}" target="_blank" rel="noopener noreferrer" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Live Demo
-                                </a>
-                            ` : ''}
-                        </div>
-                    ` : ''}
-                    ${project.stats ? `
-                        <div class="project-stats">
-                            ${Object.entries(project.stats).map(([key, value]) => `
-                                <div class="project-stat">
-                                    <span class="project-stat-value">${value}</span>
-                                    <span class="project-stat-label">${key}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-                    ` : ''}
                 </div>
             `).join('');
         }
@@ -359,18 +393,20 @@ async function loadEducation() {
         if (educationGrid && data.education) {
             educationGrid.innerHTML = data.education.map(edu => `
                 <div class="education-card">
-                    <div class="education-icon" style="background: ${edu.color}20; color: ${edu.color}">
-                        <i class="${edu.icon}"></i>
+                    <div class="education-logo">
+                        ${edu.logo ? `<img src="${edu.logo}" alt="${edu.institution}" onerror="this.parentElement.innerHTML='<i class=\\'fas fa-graduation-cap\\'></i>'">` : `<i class="fas fa-graduation-cap"></i>`}
                     </div>
-                    <h3 class="education-degree">${edu.degree}</h3>
-                    <p class="education-institution">${edu.institution}</p>
-                    <p class="education-period">${edu.period}</p>
-                    <p class="education-description">${edu.description}</p>
-                    ${edu.achievements ? `
-                        <ul class="education-achievements">
-                            ${edu.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
-                        </ul>
-                    ` : ''}
+                    <div class="education-info">
+                        <h3 class="education-degree">${edu.degree}</h3>
+                        <p class="education-institution">${edu.institution}</p>
+                        <p class="education-period"><i class="fas fa-calendar-alt"></i> ${edu.period}</p>
+                        ${edu.description ? `<p class="education-description">${edu.description}</p>` : ''}
+                        ${edu.achievements ? `
+                            <ul class="education-achievements">
+                                ${edu.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                    </div>
                 </div>
             `).join('');
         }
@@ -383,12 +419,12 @@ async function loadEducation() {
         if (certificationsGrid && data.certifications) {
             certificationsGrid.innerHTML = data.certifications.map(cert => `
                 <div class="certification-card">
-                    <div class="certification-icon" style="color: ${cert.color}">
-                        <i class="${cert.icon}"></i>
+                    <div class="certification-logo">
+                        ${cert.logo ? `<img src="${cert.logo}" alt="${cert.issuer}" onerror="this.parentElement.innerHTML='<i class=\\'${cert.icon || 'fas fa-certificate'}\\'></i>'">` : `<i class="${cert.icon || 'fas fa-certificate'}" style="color: ${cert.color || '#B19CD9'}"></i>`}
                     </div>
                     <h4 class="certification-title">${cert.title}</h4>
                     <p class="certification-issuer">${cert.issuer}</p>
-                    <p class="certification-date">${cert.date}</p>
+                    ${cert.date ? `<p class="certification-date">${cert.date}</p>` : ''}
                 </div>
             `).join('');
         }

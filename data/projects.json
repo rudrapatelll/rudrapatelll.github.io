@@ -1,452 +1,254 @@
 {
   "_instructions": "Add your projects.",
-  "sectionTitle": "Featured Work",
+  "sectionTitle": "Featured Projects",
   "projects": [
     {
-      "title": "Predictive Employee Turnover Modeling",
-      "description": "Developed a logistic regression model on 50K+ employee records, predicting attrition with 92% accuracy and an F1-score improvement of 18% through feature engineering. Integrated fairness-aware evaluation using demographic parity and equalized odds metrics. Orchestrated automated data transformation and model evaluation pipelines.",
-      "longDescription": "Developed a logistic regression model on 50K+ employee records, predicting attrition with 92% accuracy and an F1-score improvement of 18% through feature engineering. Integrated fairness-aware evaluation using demographic parity and equalized odds metrics. Orchestrated automated data transformation and model evaluation pipelines.",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Logistic Regression",
-        "HRIS"
-      ],
-      "icon": "fas fa-project-diagram",
+      "title": "A.C.I.S - Automated Component Inspection System",
+      "description": "AI-powered visual inspection system for automotive assembly lines using YOLOv8 CNNs. Achieves 99.5% mAP@0.5 accuracy with 0.3ms inference time, processing 3-5 images/second. Includes SHAP explainability, Prometheus/Grafana monitoring, and a Streamlit web interface.",
+      "category": "Computer Vision",
+      "technologies": ["Python", "YOLOv8", "PyTorch", "OpenCV", "Streamlit", "Docker", "GCP"],
+      "icon": "fas fa-eye",
       "color": "#FF6B6B",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=600&h=340&fit=crop&q=80",
       "featured": true,
-      "github": "",
-      "demo": "",
       "links": {
-        "github": "",
-        "demo": "",
-        "live": ""
+        "github": "https://github.com/rudrapatelll/A.C.I.S"
       },
       "stats": {
-        "status": "Completed",
-        "year": "2026"
+        "Accuracy": "99.5%",
+        "Inference": "0.3ms"
+      }
+    },
+    {
+      "title": "Multi-Agentic RAG System",
+      "description": "Advanced multi-agent Retrieval-Augmented Generation system with 9 specialized agents for routing, retrieval, query reformulation, web search, synthesis, fact-checking, and safety checking. Features self-correction, hallucination detection, and an interactive Streamlit chat interface.",
+      "category": "AI / NLP",
+      "technologies": ["Python", "LangChain", "Groq", "FAISS", "Streamlit", "Tavily"],
+      "icon": "fas fa-robot",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=340&fit=crop&q=80",
+      "featured": true,
+      "links": {
+        "github": "https://github.com/rudrapatelll/multi-agentic-rag"
+      },
+      "stats": {
+        "Agents": "9",
+        "Status": "Active"
+      }
+    },
+    {
+      "title": "2.3M Parameter LLM from Scratch",
+      "description": "Step-by-step implementation of a 2.3 million parameter language model following the LLaMA 1 architecture. Implements RMSNorm pre-normalization, SwiGLU activation, and Rotary Positional Embeddings (RoPE) from the ground up. Trained on the TinyShakespeare dataset.",
+      "category": "Deep Learning",
+      "technologies": ["PyTorch", "NumPy", "Matplotlib", "Transformers"],
+      "icon": "fas fa-brain",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&h=340&fit=crop&q=80",
+      "featured": true,
+      "links": {
+        "github": "https://github.com/rudrapatelll/create-million-parameter-llm-from-scratch"
+      },
+      "stats": {
+        "Parameters": "2.3M",
+        "Architecture": "LLaMA"
+      }
+    },
+    {
+      "title": "Financial Advisor LLM",
+      "description": "Real-time financial advisor chatbot using a 3-pipeline architecture combining LLM deployment, RAG with a Qdrant vector database, and a Bytewax streaming pipeline for live data processing. Implements full LLMOps practices.",
+      "category": "AI / LLMOps",
+      "technologies": ["Python", "Transformers", "Qdrant", "Bytewax", "PyTorch", "WebSocket"],
+      "icon": "fas fa-chart-line",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=340&fit=crop&q=80",
+      "featured": true,
+      "links": {
+        "github": "https://github.com/rudrapatelll/financial_advisor_llm"
+      },
+      "stats": {
+        "Pipelines": "3",
+        "Status": "Completed"
+      }
+    },
+    {
+      "title": "Predictive Employee Turnover Modeling",
+      "description": "Logistic regression model trained on 50K+ employee records predicting attrition with 92% accuracy. Achieved 18% F1-score improvement through feature engineering. Integrated fairness-aware evaluation using demographic parity and equalized odds metrics.",
+      "category": "Machine Learning",
+      "technologies": ["Python", "scikit-learn", "Pandas", "HRIS"],
+      "icon": "fas fa-users",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=340&fit=crop&q=80",
+      "featured": false,
+      "links": {},
+      "stats": {
+        "Accuracy": "92%",
+        "Records": "50K+"
       }
     },
     {
       "title": "Generative AI Report Automation",
-      "description": "Accelerated data preprocessing and model evaluation pipelines using Python and Pandas, achieving a 45% reduction in workflow duration. Deployed a generative AI summarization pipeline to condense 100K+ survey responses with 95% accuracy, implementing hallucination detection checks.",
-      "longDescription": "Accelerated data preprocessing and model evaluation pipelines using Python and Pandas, achieving a 45% reduction in workflow duration. Deployed a generative AI summarization pipeline to condense 100K+ survey responses with 95% accuracy, implementing hallucination detection checks.",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Pandas",
-        "Generative AI"
-      ],
-      "icon": "fas fa-brain",
-      "color": "#4ECDC4",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "description": "Generative AI summarization pipeline condensing 100K+ survey responses with 95% accuracy and hallucination detection. Accelerated data preprocessing and model evaluation pipelines using Python and Pandas, achieving 45% reduction in workflow duration.",
+      "category": "Generative AI",
+      "technologies": ["Python", "Pandas", "Generative AI", "NLP"],
+      "icon": "fas fa-file-alt",
+      "color": "#f093fb",
+      "image": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=600&h=340&fit=crop&q=80",
       "featured": false,
-      "github": "",
-      "demo": "",
-      "links": {
-        "github": "",
-        "demo": "",
-        "live": ""
-      },
+      "links": {},
       "stats": {
-        "status": "Completed",
-        "year": "2026"
+        "Accuracy": "95%",
+        "Speedup": "45%"
       }
     },
     {
-      "title": "Smart City Intra Transit System Using IoT",
-      "description": "Optimized IoT data processing by converting to JSON-MQTT protocol and implementing NoSQL database analytics, shrinking model size by 15%. Reduced computational cost of AI inference on edge devices by 30% through model quantization and pruning.",
-      "longDescription": "Optimized IoT data processing by converting to JSON-MQTT protocol and implementing NoSQL database analytics, shrinking model size by 15%. Reduced computational cost of AI inference on edge devices by 30% through model quantization and pruning.",
-      "category": "Software Development",
-      "technologies": [
-        "IoT",
-        "JSON-MQTT",
-        "NoSQL",
-        "Model Quantization"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#FFE66D",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "",
-      "demo": "",
-      "links": {
-        "github": "",
-        "demo": "",
-        "live": ""
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "financial_advisor_llm",
-      "description": "Modern web application demonstrating clean code principles",
-      "longDescription": "Modern web application demonstrating clean code principles",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Jupyter Notebook",
-        "Makefile"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#A8DADC",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/rudrapatelll/financial_advisor_llm",
-      "demo": "https://github.com/rudrapatelll/financial_advisor_llm",
-      "links": {
-        "github": "https://github.com/rudrapatelll/financial_advisor_llm",
-        "demo": "https://github.com/rudrapatelll/financial_advisor_llm",
-        "live": "https://github.com/rudrapatelll/financial_advisor_llm"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "time-series-analysis-and-forecasting-with-python",
-      "description": "Interactive application built for continuous learning",
-      "longDescription": "Interactive application built for continuous learning",
-      "category": "Software Development",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#B19CD9",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/rudrapatelll/time-series-analysis-and-forecasting-with-python",
-      "demo": "https://github.com/rudrapatelll/time-series-analysis-and-forecasting-with-python",
-      "links": {
-        "github": "https://github.com/rudrapatelll/time-series-analysis-and-forecasting-with-python",
-        "demo": "https://github.com/rudrapatelll/time-series-analysis-and-forecasting-with-python",
-        "live": "https://github.com/rudrapatelll/time-series-analysis-and-forecasting-with-python"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "dicom",
-      "description": "Personal development project using industry best practices",
-      "longDescription": "Personal development project using industry best practices",
-      "category": "Backend Development",
-      "technologies": [
-        "Go",
-        "Python",
-        "Makefile"
-      ],
-      "icon": "fas fa-project-diagram",
+      "title": "Real-Time Emotion Detection",
+      "description": "CNN-based system that detects and classifies 7 human emotions (Angry, Disgusted, Fearful, Happy, Neutral, Sad, Surprised) in real-time from webcam feeds at 20-30 FPS. Trained on the FER2013 dataset with ~3.5M parameters.",
+      "category": "Computer Vision",
+      "technologies": ["Python", "TensorFlow", "Keras", "OpenCV", "NumPy"],
+      "icon": "fas fa-smile",
       "color": "#FF8B94",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=340&fit=crop&q=80",
       "featured": false,
-      "github": "https://github.com/rudrapatelll/dicom",
-      "demo": "https://github.com/rudrapatelll/dicom",
       "links": {
-        "github": "https://github.com/rudrapatelll/dicom",
-        "demo": "https://github.com/rudrapatelll/dicom",
-        "live": "https://github.com/rudrapatelll/dicom"
+        "github": "https://github.com/rudrapatelll/Emotion_detection_with_CNN"
       },
       "stats": {
-        "status": "Completed",
-        "year": "2026"
+        "Emotions": "7",
+        "FPS": "20-30"
       }
     },
     {
-      "title": "data-analytics-customer-segmentation",
-      "description": "Personal project for exploring modern development practices",
-      "longDescription": "Personal project for exploring modern development practices",
-      "category": "Software Development",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "icon": "fas fa-project-diagram",
+      "title": "Diabetic Retinopathy Screening",
+      "description": "Deep learning system using Convolutional Neural Networks to screen for diabetic retinopathy from retinal fundus images. Applies medical imaging techniques to assist in early detection of vision-threatening conditions.",
+      "category": "Medical AI",
+      "technologies": ["Python", "TensorFlow", "CNN", "Medical Imaging"],
+      "icon": "fas fa-heartbeat",
       "color": "#FF6B6B",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=340&fit=crop&q=80",
       "featured": false,
-      "github": "https://github.com/rudrapatelll/data-analytics-customer-segmentation",
-      "demo": "https://github.com/rudrapatelll/data-analytics-customer-segmentation",
       "links": {
-        "github": "https://github.com/rudrapatelll/data-analytics-customer-segmentation",
-        "demo": "https://github.com/rudrapatelll/data-analytics-customer-segmentation",
-        "live": "https://github.com/rudrapatelll/data-analytics-customer-segmentation"
+        "github": "https://github.com/rudrapatelll/Diabetic-Retinopathy-Screening-Using-CNN"
       },
       "stats": {
-        "status": "Completed",
-        "year": "2026"
+        "Type": "CNN",
+        "Domain": "Healthcare"
       }
     },
     {
-      "title": "customer-churn-prediction",
-      "description": "Interactive application built for continuous learning",
-      "longDescription": "Interactive application built for continuous learning",
-      "category": "Backend Development",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
+      "title": "LangChain RAG for Document Understanding",
+      "description": "Retrieval-Augmented Generation pipeline for PDF document understanding. Extracts text, chunks documents, creates embeddings with SentenceTransformer, stores in FAISS vector store, and queries using both Hugging Face and OpenAI models.",
+      "category": "AI / NLP",
+      "technologies": ["Python", "LangChain", "FAISS", "OpenAI", "HuggingFace"],
+      "icon": "fas fa-search",
+      "color": "#4facfe",
+      "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=600&h=340&fit=crop&q=80",
+      "featured": false,
+      "links": {
+        "github": "https://github.com/rudrapatelll/langchain-rag-retrieval-augmented-generation-for-document-understanding"
+      },
+      "stats": {
+        "Models": "2",
+        "Status": "Completed"
+      }
+    },
+    {
+      "title": "End-to-End MLOps Pipeline",
+      "description": "Comprehensive MLOps project template covering the full ML lifecycle: data ingestion, model training, validation, deployment, monitoring, and retraining. Includes CI/CD pipelines, model versioning, and infrastructure-as-code.",
+      "category": "MLOps",
+      "technologies": ["Python", "MLflow", "Airflow", "Docker", "DVC", "Kubernetes"],
+      "icon": "fas fa-cogs",
       "color": "#4ECDC4",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=340&fit=crop&q=80",
       "featured": false,
-      "github": "https://github.com/rudrapatelll/customer-churn-prediction",
-      "demo": "https://github.com/rudrapatelll/customer-churn-prediction",
       "links": {
-        "github": "https://github.com/rudrapatelll/customer-churn-prediction",
-        "demo": "https://github.com/rudrapatelll/customer-churn-prediction",
-        "live": "https://github.com/rudrapatelll/customer-churn-prediction"
+        "github": "https://github.com/rudrapatelll/mlops-end-to-end-project"
       },
       "stats": {
-        "status": "Completed",
-        "year": "2026"
+        "Tools": "10+",
+        "Status": "Completed"
       }
     },
     {
-      "title": "mlops-end-to-end-project",
-      "description": "Hands-on learning experience with modern frameworks",
-      "longDescription": "Hands-on learning experience with modern frameworks",
-      "category": "Backend Development",
-      "technologies": [
-        "Jupyter Notebook",
-        "Python",
-        "HTML",
-        "Shell"
-      ],
-      "icon": "fas fa-brain",
+      "title": "Customer Churn Prediction",
+      "description": "Telco customer churn classification using statistical hypothesis testing (chi-square, t-test) and ML models. Analyzes key churn drivers including monthly charges, tenure, and service subscriptions. Full pipeline from MySQL acquisition to model evaluation.",
+      "category": "Data Science",
+      "technologies": ["Python", "scikit-learn", "Pandas", "Plotly", "SciPy"],
+      "icon": "fas fa-user-minus",
       "color": "#FFE66D",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=340&fit=crop&q=80",
       "featured": false,
-      "github": "https://github.com/rudrapatelll/mlops-end-to-end-project",
-      "demo": "https://github.com/rudrapatelll/mlops-end-to-end-project",
       "links": {
-        "github": "https://github.com/rudrapatelll/mlops-end-to-end-project",
-        "demo": "https://github.com/rudrapatelll/mlops-end-to-end-project",
-        "live": "https://github.com/rudrapatelll/mlops-end-to-end-project"
+        "github": "https://github.com/rudrapatelll/customer-churn-prediction"
       },
       "stats": {
-        "status": "Completed",
-        "year": "2026"
+        "Type": "Classification",
+        "Status": "Completed"
       }
     },
     {
-      "title": "create-million-parameter-llm-from-scratch",
-      "description": "Comprehensive project exploring software design patterns",
-      "longDescription": "Comprehensive project exploring software design patterns",
-      "category": "Software Development",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#A8DADC",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/rudrapatelll/create-million-parameter-llm-from-scratch",
-      "demo": "https://github.com/rudrapatelll/create-million-parameter-llm-from-scratch",
-      "links": {
-        "github": "https://github.com/rudrapatelll/create-million-parameter-llm-from-scratch",
-        "demo": "https://github.com/rudrapatelll/create-million-parameter-llm-from-scratch",
-        "live": "https://github.com/rudrapatelll/create-million-parameter-llm-from-scratch"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "langchain-rag-retrieval-augmented-generation-for-document-understanding",
-      "description": "Full-featured application built as a learning exercise",
-      "longDescription": "Full-featured application built as a learning exercise",
-      "category": "Software Development",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "icon": "fas fa-project-diagram",
+      "title": "Customer Segmentation Analysis",
+      "description": "RFM (Recency, Frequency, Monetary) analysis segmenting customers into 11 groups for an automobile bike company. Includes data quality assessment, exploratory analysis across demographics, and a Tableau sales dashboard.",
+      "category": "Data Analytics",
+      "technologies": ["Python", "Pandas", "Tableau", "Excel", "RFM Analysis"],
+      "icon": "fas fa-chart-pie",
       "color": "#B19CD9",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=340&fit=crop&q=80",
       "featured": false,
-      "github": "https://github.com/rudrapatelll/langchain-rag-retrieval-augmented-generation-for-document-understanding",
-      "demo": "https://github.com/rudrapatelll/langchain-rag-retrieval-augmented-generation-for-document-understanding",
       "links": {
-        "github": "https://github.com/rudrapatelll/langchain-rag-retrieval-augmented-generation-for-document-understanding",
-        "demo": "https://github.com/rudrapatelll/langchain-rag-retrieval-augmented-generation-for-document-understanding",
-        "live": "https://github.com/rudrapatelll/langchain-rag-retrieval-augmented-generation-for-document-understanding"
+        "github": "https://github.com/rudrapatelll/data-analytics-customer-segmentation"
       },
       "stats": {
-        "status": "Completed",
-        "year": "2026"
+        "Segments": "11",
+        "Status": "Completed"
       }
     },
     {
-      "title": "multi-agentic-rag",
-      "description": "Interactive application built for continuous learning",
-      "longDescription": "Interactive application built for continuous learning",
-      "category": "Backend Development",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#FF8B94",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/rudrapatelll/multi-agentic-rag",
-      "demo": "https://github.com/rudrapatelll/multi-agentic-rag",
-      "links": {
-        "github": "https://github.com/rudrapatelll/multi-agentic-rag",
-        "demo": "https://github.com/rudrapatelll/multi-agentic-rag",
-        "live": "https://github.com/rudrapatelll/multi-agentic-rag"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "Emotion_detection_with_CNN",
-      "description": "Real-time emotion detection using CNN and OpenCV",
-      "longDescription": "Real-time emotion detection using CNN and OpenCV",
-      "category": "Backend Development",
-      "technologies": [
-        "Jupyter Notebook",
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#FF6B6B",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/rudrapatelll/Emotion_detection_with_CNN",
-      "demo": "https://github.com/rudrapatelll/Emotion_detection_with_CNN",
-      "links": {
-        "github": "https://github.com/rudrapatelll/Emotion_detection_with_CNN",
-        "demo": "https://github.com/rudrapatelll/Emotion_detection_with_CNN",
-        "live": "https://github.com/rudrapatelll/Emotion_detection_with_CNN"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "A.C.I.S",
-      "description": "Acis Final Report",
-      "longDescription": "Acis Final Report",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Shell",
-        "Dockerfile"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#4ECDC4",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/rudrapatelll/A.C.I.S",
-      "demo": "https://github.com/rudrapatelll/A.C.I.S",
-      "links": {
-        "github": "https://github.com/rudrapatelll/A.C.I.S",
-        "demo": "https://github.com/rudrapatelll/A.C.I.S",
-        "live": "https://github.com/rudrapatelll/A.C.I.S"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "datasciencecoursera",
-      "description": "first repo",
-      "longDescription": "first repo",
-      "category": "Development",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "color": "#FFE66D",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/rudrapatelll/datasciencecoursera",
-      "demo": "https://github.com/rudrapatelll/datasciencecoursera",
-      "links": {
-        "github": "https://github.com/rudrapatelll/datasciencecoursera",
-        "demo": "https://github.com/rudrapatelll/datasciencecoursera",
-        "live": "https://github.com/rudrapatelll/datasciencecoursera"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "Exploratory-data-analysis-course-project-2",
-      "description": "GitHub repository: Exploratory-data-analysis-course-project-2",
-      "longDescription": "GitHub repository: Exploratory-data-analysis-course-project-2",
-      "category": "Software Development",
-      "technologies": [
-        "R"
-      ],
-      "icon": "fas fa-project-diagram",
+      "title": "Time Series Forecasting Guide",
+      "description": "Comprehensive guide covering the full spectrum of time-series analysis: EDA, stationarity testing, classical forecasting (ARIMA, SARIMA, Holt-Winters), deep learning (LSTMs, CNNs), Facebook Prophet, and AutoML with FLAML.",
+      "category": "Data Science",
+      "technologies": ["Python", "statsmodels", "TensorFlow", "Prophet", "FLAML"],
+      "icon": "fas fa-chart-area",
       "color": "#A8DADC",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=340&fit=crop&q=80",
       "featured": false,
-      "github": "https://github.com/rudrapatelll/Exploratory-data-analysis-course-project-2",
-      "demo": "https://github.com/rudrapatelll/Exploratory-data-analysis-course-project-2",
       "links": {
-        "github": "https://github.com/rudrapatelll/Exploratory-data-analysis-course-project-2",
-        "demo": "https://github.com/rudrapatelll/Exploratory-data-analysis-course-project-2",
-        "live": "https://github.com/rudrapatelll/Exploratory-data-analysis-course-project-2"
+        "github": "https://github.com/rudrapatelll/time-series-analysis-and-forecasting-with-python"
       },
       "stats": {
-        "status": "Completed",
-        "year": "2026"
+        "Methods": "10+",
+        "Status": "Active"
       }
     },
     {
-      "title": "Program_Assignment3",
-      "description": "GitHub repository: Program_Assignment3",
-      "longDescription": "GitHub repository: Program_Assignment3",
-      "category": "Software Development",
-      "technologies": [
-        "R"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#B19CD9",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "title": "Smart City IoT Transit System",
+      "description": "Optimized IoT data processing using JSON-MQTT protocol with NoSQL database analytics, shrinking model size by 15%. Reduced AI inference cost on edge devices by 30% through model quantization and pruning techniques.",
+      "category": "IoT / Edge AI",
+      "technologies": ["IoT", "MQTT", "NoSQL", "Model Quantization", "Edge AI"],
+      "icon": "fas fa-city",
+      "color": "#f5576c",
+      "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600&h=340&fit=crop&q=80",
       "featured": false,
-      "github": "https://github.com/rudrapatelll/Program_Assignment3",
-      "demo": "https://github.com/rudrapatelll/Program_Assignment3",
-      "links": {
-        "github": "https://github.com/rudrapatelll/Program_Assignment3",
-        "demo": "https://github.com/rudrapatelll/Program_Assignment3",
-        "live": "https://github.com/rudrapatelll/Program_Assignment3"
-      },
+      "links": {},
       "stats": {
-        "status": "Completed",
-        "year": "2026"
+        "Size Reduction": "15%",
+        "Cost Savings": "30%"
       }
     },
     {
-      "title": "Diabetic-Retinopathy-Screening-Using-CNN",
-      "description": "GitHub repository: Diabetic-Retinopathy-Screening-Using-CNN",
-      "longDescription": "GitHub repository: Diabetic-Retinopathy-Screening-Using-CNN",
-      "category": "Software Development",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "icon": "fas fa-project-diagram",
+      "title": "DICOM Medical Image Parser",
+      "description": "High-performance Go library and CLI tool for reading, writing, and processing DICOM medical image files. Supports multi-frame imagery, streaming via Go channels, JSON serialization, and PNG/JPEG extraction.",
+      "category": "Systems / Healthcare",
+      "technologies": ["Go", "DICOM", "CLI", "Medical Imaging"],
+      "icon": "fas fa-x-ray",
       "color": "#FF8B94",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=600&h=340&fit=crop&q=80",
       "featured": false,
-      "github": "https://github.com/rudrapatelll/Diabetic-Retinopathy-Screening-Using-CNN",
-      "demo": "https://github.com/rudrapatelll/Diabetic-Retinopathy-Screening-Using-CNN",
       "links": {
-        "github": "https://github.com/rudrapatelll/Diabetic-Retinopathy-Screening-Using-CNN",
-        "demo": "https://github.com/rudrapatelll/Diabetic-Retinopathy-Screening-Using-CNN",
-        "live": "https://github.com/rudrapatelll/Diabetic-Retinopathy-Screening-Using-CNN"
+        "github": "https://github.com/rudrapatelll/dicom"
       },
       "stats": {
-        "status": "Completed",
-        "year": "2026"
+        "Version": "v1.0",
+        "Language": "Go"
       }
     }
   ]
