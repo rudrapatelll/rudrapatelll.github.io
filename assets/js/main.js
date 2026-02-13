@@ -167,6 +167,12 @@ async function loadAbout() {
         // Set section title
         document.getElementById('about-title').textContent = data.sectionTitle;
 
+        // Render about image
+        const imageContainer = document.getElementById('about-image');
+        if (imageContainer && data.image) {
+            imageContainer.innerHTML = `<img src="${data.image}" alt="About Me">`;
+        }
+
         // Render paragraphs
         const textContainer = document.getElementById('about-text');
         if (textContainer && data.paragraphs) {
