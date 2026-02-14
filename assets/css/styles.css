@@ -286,7 +286,7 @@ body {
 
 .hero-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: var(--spacing-xl);
     align-items: center;
     position: relative;
@@ -294,39 +294,10 @@ body {
 }
 
 .hero-content {
-    text-align: left;
+    text-align: center;
     position: relative;
 }
 
-.hero-avatar {
-    width: 100%;
-    max-width: 420px;
-    aspect-ratio: 3 / 4;
-    justify-self: center;
-    overflow: hidden;
-    border-radius: var(--radius-xl);
-    border: 3px solid rgba(102, 126, 234, 0.4);
-    box-shadow: 0 8px 40px rgba(102, 126, 234, 0.25), 0 0 80px rgba(118, 75, 162, 0.1);
-    animation: fadeInUp 0.6s ease 0.2s backwards;
-    position: relative;
-}
-
-.hero-avatar::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: var(--radius-xl);
-    background: linear-gradient(180deg, transparent 60%, rgba(10, 14, 39, 0.4) 100%);
-    pointer-events: none;
-}
-
-.hero-avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top center;
-    display: block;
-}
 
 .hero-greeting {
     font-size: var(--font-size-md);
@@ -360,18 +331,13 @@ body {
     animation: fadeInUp 0.6s ease 0.2s backwards;
 }
 
-.hero-tagline {
-    font-size: var(--font-size-md);
-    color: var(--color-text-muted);
-    margin-bottom: var(--spacing-md);
-    animation: fadeInUp 0.6s ease 0.3s backwards;
-}
+
 
 .hero-summary {
     font-size: var(--font-size-md);
     color: var(--color-text-secondary);
     max-width: 700px;
-    margin: 0 0 var(--spacing-md);
+    margin: 0 auto var(--spacing-md);
     line-height: 1.8;
     animation: fadeInUp 0.6s ease 0.4s backwards;
 }
@@ -420,7 +386,7 @@ body {
 .hero-cta {
     display: flex;
     gap: var(--spacing-md);
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     margin: var(--spacing-lg) 0;
     animation: fadeInUp 0.6s ease 0.6s backwards;
@@ -466,7 +432,7 @@ body {
 .hero-social {
     display: flex;
     gap: var(--spacing-md);
-    justify-content: flex-start;
+    justify-content: center;
     margin: var(--spacing-md) 0;
     animation: fadeInUp 0.6s ease 0.7s backwards;
 }
@@ -1642,12 +1608,6 @@ body {
 
     .hero-content {
         text-align: center;
-        order: 2;
-    }
-
-    .hero-avatar {
-        order: 1;
-        max-width: 320px;
     }
 
     .hero-cta {
@@ -1733,10 +1693,6 @@ body {
     .hero-section {
         min-height: auto;
         padding: calc(var(--spacing-2xl) + 70px) 0 var(--spacing-2xl);
-    }
-
-    .hero-avatar {
-        max-width: 280px;
     }
 
     .projects-grid {
