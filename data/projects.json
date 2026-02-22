@@ -71,36 +71,6 @@
       }
     },
     {
-      "title": "Predictive Employee Turnover Modeling",
-      "description": "Logistic regression model trained on 50K+ employee records predicting attrition with 92% accuracy. Achieved 18% F1-score improvement through feature engineering. Integrated fairness-aware evaluation using demographic parity and equalized odds metrics.",
-      "category": "Machine Learning",
-      "technologies": ["Python", "scikit-learn", "Pandas", "HRIS"],
-      "icon": "fas fa-users",
-      "color": "#A8DADC",
-      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=340&fit=crop&q=80",
-      "featured": false,
-      "links": {},
-      "stats": {
-        "Accuracy": "92%",
-        "Records": "50K+"
-      }
-    },
-    {
-      "title": "Generative AI Report Automation",
-      "description": "Generative AI summarization pipeline condensing 100K+ survey responses with 95% accuracy and hallucination detection. Accelerated data preprocessing and model evaluation pipelines using Python and Pandas, achieving 45% reduction in workflow duration.",
-      "category": "Generative AI",
-      "technologies": ["Python", "Pandas", "Generative AI", "NLP"],
-      "icon": "fas fa-file-alt",
-      "color": "#f093fb",
-      "image": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=600&h=340&fit=crop&q=80",
-      "featured": false,
-      "links": {},
-      "stats": {
-        "Accuracy": "95%",
-        "Speedup": "45%"
-      }
-    },
-    {
       "title": "Real-Time Emotion Detection",
       "description": "CNN-based system that detects and classifies 7 human emotions (Angry, Disgusted, Fearful, Happy, Neutral, Sad, Surprised) in real-time from webcam feeds at 20-30 FPS. Trained on the FER2013 dataset with ~3.5M parameters.",
       "category": "Computer Vision",
@@ -228,7 +198,9 @@
       "color": "#f5576c",
       "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600&h=340&fit=crop&q=80",
       "featured": false,
-      "links": {},
+      "links": {
+        "paper": "https://ijsrcseit.com/index.php/home/article/view/CSEIT2490218"
+      },
       "stats": {
         "Size Reduction": "15%",
         "Cost Savings": "30%"
