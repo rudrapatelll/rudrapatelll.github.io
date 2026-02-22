@@ -349,6 +349,12 @@ async function loadProjects() {
                                         Live Demo
                                     </a>
                                 ` : ''}
+                                ${project.links.paper ? `
+                                    <a href="${project.links.paper}" target="_blank" rel="noopener noreferrer" class="project-link project-link-paper">
+                                        <i class="fas fa-file-alt"></i>
+                                        Published Paper
+                                    </a>
+                                ` : ''}
                             </div>
                         ` : ''}
                         ${project.stats ? `
