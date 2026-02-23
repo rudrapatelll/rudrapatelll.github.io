@@ -2,10 +2,10 @@
   "_instructions": "About section.",
   "sectionTitle": "About Me",
   "paragraphs": [
-    "Hi, I'm Rudra — an AI and ML engineer who loves turning complex data into systems that actually work in the real world. I'm currently pursuing my M.S. in Artificial Intelligence Systems at the University of Florida, building on hands-on industry experience in ML pipelines, computer vision, and generative AI.",
-    "I've shipped production-level work — from ML-powered testing frameworks that cut deployment failures at Jignect, to a CNN diagnostic model that classified diabetic retinopathy across 35,000+ retinal images with 96% accuracy. I care as much about responsible AI as I do about performance, which is why explainability and fairness evaluation are always part of how I build.",
-    "My projects span Healthcare AI, Generative AI & LLMs, People Analytics, Time Series Forecasting, Customer Analytics, and MLOps. From building a multi-agent RAG pipeline to constructing an LLM from scratch, I'm always working at the edge of what I know.",
-    "I'm actively looking for roles in AI/ML engineering, data science, and applied research — ideally somewhere I can build things that matter."
+    "Hi, I'm Rudra, an AI and ML engineer who loves turning complex data into systems that actually work in the real world. I'm currently pursuing my M.S. in Artificial Intelligence Systems at the University of Florida, building on hands-on industry experience in ML pipelines, computer vision, and generative AI.",
+    "I've shipped production-level work. From ML-powered testing frameworks that cut deployment failures at Jignect, to a CNN diagnostic model that classified diabetic retinopathy across 35,000+ retinal images with 96% accuracy. I care as much about responsible AI as I do about performance, which is why explainability and fairness evaluation are always part of how I build.",
+    "My projects span Healthcare AI, Generative AI and LLMs, People Analytics, Time Series Forecasting, Customer Analytics, and MLOps. From building a multi-agent RAG pipeline to constructing an LLM from scratch, I'm always working at the edge of what I know.",
+    "I'm actively looking for roles in AI/ML engineering, data science, and applied research. Ideally somewhere I can build things that matter."
   ],
   "statistics": [
     {
