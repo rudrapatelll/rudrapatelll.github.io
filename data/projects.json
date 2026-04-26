@@ -20,22 +20,22 @@
       }
     },
     {
-  "title": "GravWaveFormer",
-  "description": "Multi-model deep learning ensemble for gravitational wave detection in LIGO data. Combines a ResNet-18 + Transformer (spectrogram), a dilated WaveCNN1D (raw waveform), and a novel CrossDetectorGNN (graph-based multi-detector coherence) via a stacked MLP meta-learner. Achieves 0.934 ROC-AUC and 85.9% accuracy, catching 89.6% of all gravitational wave events in under 2ms per sample.",
-  "category": "Deep Learning",
-  "technologies": ["PyTorch", "Transformers", "PyTorch Geometric", "GWpy", "ResNet-18", "Streamlit"],
-  "icon": "fas fa-wave-square",
-  "color": "#7B61FF",
-  "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=600&h=340&fit=crop&q=80",
-  "featured": true,
-  "links": {
-    "github": "https://github.com/rudrapatelll/GravWaveFormer"
-  },
-  "stats": {
-    "ROC-AUC": "0.934",
-    "Recall": "89.6%"
-  }
-},
+      "title": "GravWaveFormer",
+      "description": "Multi-model deep learning ensemble for gravitational wave detection in LIGO data. Combines a ResNet-18 + Transformer (spectrogram), a dilated WaveCNN1D (raw waveform), and a novel CrossDetectorGNN (graph-based multi-detector coherence) via a stacked MLP meta-learner. Achieves 0.934 ROC-AUC and 85.9% accuracy, catching 89.6% of all gravitational wave events in under 2ms per sample.",
+      "category": "Deep Learning",
+      "technologies": ["PyTorch", "Transformers", "PyTorch Geometric", "GWpy", "ResNet-18", "Streamlit"],
+      "icon": "fas fa-wave-square",
+      "color": "#7B61FF",
+      "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=600&h=340&fit=crop&q=80",
+      "featured": true,
+      "links": {
+        "github": "https://github.com/rudrapatelll/GravWaveFormer"
+      },
+      "stats": {
+        "ROC-AUC": "0.934",
+        "Recall": "89.6%"
+      }
+    },
     {
       "title": "Multi-Agentic RAG System",
       "description": "Advanced multi-agent Retrieval-Augmented Generation system with 9 specialized agents for routing, retrieval, query reformulation, web search, synthesis, fact-checking, and safety checking. Features self-correction, hallucination detection, and an interactive Streamlit chat interface.",
