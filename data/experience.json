@@ -3,6 +3,24 @@
   "sectionTitle": "Professional Experience",
   "experiences": [
     {
+      "title": "Graduate Research Assistant",
+      "company": "Computational Microscopy Imaging Lab (CMIL) — University of Florida",
+      "period": "Jun 2026 – Present",
+      "location": "Gainesville, FL",
+      "logo": "assets/images/logos/ufl.png",
+      "color": "#FA4616",
+      "icon": "fas fa-microscope",
+      "description": "Conducting AI-driven computational imaging research at a UF College of Medicine lab focused on kidney disease diagnostics using histopathology and spatial-omics data.",
+      "responsibilities": [
+        "Developed deep learning segmentation pipelines for glomeruli detection across 300+ whole slide images, supporting automated annotation of 7,000+ renal structures within HuBMAP and KPMP datasets",
+        "Contributed to FUSION, a published web-based spatial-omics visualization platform (Nature Communications, 2025) hosting 50+ paired datasets across 5 spatial assay types and 4 tissue categories",
+        "Processed and standardized HuBMAP and KPMP multi-institutional data workflows supporting a $2M+ NIH OT2-funded CKD screening initiative targeting integration of data from 200,000 patients",
+        "Fine-tuned PyTorch-based models on histopathology image datasets spanning multiple staining protocols, improving glomerular injury classification consistency across diabetic kidney disease and transplant cohorts",
+        "Built reproducible WSI preprocessing pipelines using OpenCV and Python, enabling tile extraction and augmentation at scale across multi-stain renal biopsy datasets"
+      ],
+      "technologies": ["Python", "PyTorch", "OpenCV", "Whole Slide Imaging", "Spatial Omics", "HuBMAP/KPMP"]
+    },
+    {
       "title": "AI/ML Engineer",
       "company": "Jignect Technologies",
       "period": "May 2024 – Jul 2025",
