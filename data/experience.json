@@ -4,8 +4,8 @@
   "experiences": [
     {
       "title": "Graduate Research Assistant",
-      "company": "Computational Microscopy Imaging Lab (CMIL) — University of Florida",
-      "period": "Jun 2026 – Present",
+      "company": "Computational Microscopy Imaging Lab (CMIL) \u2014 University of Florida",
+      "period": "Jun 2026 \u2013 Present",
       "location": "Gainesville, FL",
       "logo": "assets/images/logos/ufl.png",
       "color": "#FA4616",
@@ -23,7 +23,7 @@
     {
       "title": "AI/ML Engineer",
       "company": "Jignect Technologies",
-      "period": "May 2024 – Jul 2025",
+      "period": "May 2024 \u2013 Jul 2025",
       "location": "",
       "logo": "assets/images/logos/jignect.png",
       "color": "#4ECDC4",
@@ -41,7 +41,7 @@
     {
       "title": "Data Science Intern",
       "company": "SlashMark",
-      "period": "Dec 2023 – Mar 2024",
+      "period": "Dec 2023 \u2013 Mar 2024",
       "location": "",
       "logo": "assets/images/logos/slashmark.png",
       "color": "#B19CD9",
